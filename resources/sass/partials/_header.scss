@@ -1,0 +1,22 @@
+// HEADER
+// nav
+header {
+  padding: 10px 0;
+  background-color: green;
+  .container{
+    line-height: 80px;
+  }
+}
+
+.logo {
+  height: 80px;
+  img{
+    height: 100%;
+  }
+}
+
+.nav {
+  background-color: red;
+  flex-basis: 70%;
+  justify-content: center;
+}

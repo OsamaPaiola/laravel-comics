@@ -1,0 +1,23 @@
+body {
+  font-size: 16px;
+}
+
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.space-btw{
+  justify-content: space-between;
+}
+
+// @each $size in 0,1,2,3,4,6 {
+//   mt-#($size) {
+//     margin-top: $size + 0rem;
+//   }
+// }
