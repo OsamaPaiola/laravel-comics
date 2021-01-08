@@ -1,0 +1,38 @@
+// DETAIL
+.detail{
+  margin-top: 60px;
+
+  .container{
+    padding: 0 120px;
+    display: flex;
+
+    .descrition {
+      flex-basis: 68%;
+      margin-right: 2%;
+
+      h1 {
+        color: $col-title-detail;
+        margin-bottom: 15px;
+      }
+
+      .price {
+        background:$col-green;
+        color: white;
+        display: flex;
+        // justify-content: space-between;
+        font-size: 0.8rem;
+
+        span {
+          padding: 10px 20px;
+          flex-basis: 33%;
+        }
+      }
+
+
+    }
+
+    .advertisement {
+      flex-basis: 30%;
+    }
+  }
+}

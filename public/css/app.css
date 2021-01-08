@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
 ul {
   list-style-type: none;
 }
@@ -32,23 +40,34 @@ body {
 
 header {
   padding: 10px 0;
-  background-color: green;
+  line-height: 80px;
+  color: #464646;
 }
 header .container {
-  line-height: 80px;
+  justify-content: space-between;
 }
-
-.logo {
+header .container .logo {
   height: 80px;
+  flex-basis: 10%;
 }
-.logo img {
+header .container .logo img {
   height: 100%;
 }
-
-.nav {
-  background-color: red;
-  flex-basis: 70%;
-  justify-content: center;
+header .container .nav-list {
+  display: flex;
+}
+header .container .nav-list li {
+  margin: 0 18px;
+}
+header .container .nav-list li a {
+  color: #464646;
+  font-size: 0.9rem;
+}
+header .container .search {
+  flex-basis: 10%;
+}
+header .container .search input {
+  width: 100%;
 }
 
 .general-hero {
@@ -56,4 +75,80 @@ header .container {
   background-image: url("../images/bg-hero-home.jpg");
   background-size: cover;
   background-position: top;
+  border-bottom: 30px solid #0282f9;
+}
+.general-hero .container {
+  height: 100%;
+  position: relative;
+}
+.general-hero .container img {
+  position: absolute;
+  bottom: -30px;
+  left: 120px;
+  border: 1px solid #fff;
+}
+.general-hero .container .row {
+  position: absolute;
+  bottom: -30px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  background-color: #0282f9;
+  padding: 10px 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.comics {
+  background-color: #464646;
+  color: #fff;
+}
+.comics .container {
+  padding: 15px;
+}
+.comics .container .comic-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 1rem;
+}
+.comics .container .comic-list li {
+  margin-bottom: 20px;
+}
+.comics .container .comic-list li a {
+  color: white;
+  font-size: 0.6rem;
+}
+.comics .container .comic-list li a img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.detail {
+  margin-top: 60px;
+}
+.detail .container {
+  padding: 0 120px;
+  display: flex;
+}
+.detail .container .descrition {
+  flex-basis: 68%;
+  margin-right: 2%;
+}
+.detail .container .descrition h1 {
+  color: #003f5e;
+  margin-bottom: 15px;
+}
+.detail .container .descrition .price {
+  background: #55ba59;
+  color: white;
+  display: flex;
+  font-size: 0.8rem;
+}
+.detail .container .descrition .price span {
+  padding: 10px 20px;
+  flex-basis: 33%;
+}
+.detail .container .advertisement {
+  flex-basis: 30%;
 }

@@ -1,6 +1,7 @@
 <!-- HEADER MAIN CONTENT -->
 <header>
-  <div class="container d-flex space-btw">
+  <div class="container d-flex">
+
     <!-- logo -->
     <div class="logo">
       <a href="{{route('home')}}">
@@ -9,17 +10,38 @@
     </div>
 
     <!-- nav -->
-    <div class="nav d-flex">
-      <ul class="nav-list d-flex">
-        <a href="#">
-          <li>CARACT</li>
-        </a>
-        <a href="#">
-          <li>COMICS</li>
-        </a>
-        <a href="#">
-          <li>MOVIE</li>
-        </a>
+    <div class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#">CARACTER</a>
+        </li>
+        <li>
+          <a href="#">COMICS</a>
+        </li>
+        <li>
+          <a href="#">MOVIES</a>
+        </li>
+        <li>
+          <a href="#">TV</a>
+        </li>
+        <li>
+          <a href="#">GAMES</a>
+        </li>
+        <li>
+          <a href="#">COLLETIBLES</a>
+        </li>
+        <li>
+          <a href="#">VIDEOS</a>
+        </li>
+        <li>
+          <a href="#">FANS</a>
+        </li>
+        <li>
+          <a href="#">NEWS</a>
+        </li>
+        <li>
+          <a href="#">SHOP</a>
+        </li>
       </ul>
     </div>
 

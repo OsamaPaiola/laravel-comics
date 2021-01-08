@@ -4,4 +4,30 @@
   background-image: url('../images/bg-hero-home.jpg');
   background-size: cover;
   background-position: top;
+  border-bottom: 30px solid $col-blue;
+
+  .container {
+    height: 100%;
+    position: relative;
+
+    img {
+      position: absolute;
+      bottom: -30px;
+      left: 120px;
+      border: 1px solid $col-white;
+    }
+
+    .row {
+      position: absolute;
+      bottom: -30px;
+      border-top: 1px solid black;
+      border-right: 1px solid black;
+      border-left: 1px solid black;
+      background-color: $col-blue;
+      padding: 10px 20px;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
 }
