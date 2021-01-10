@@ -1,0 +1,37 @@
+// <!-- DC COMICS INFO -->
+.info{
+  background-color: $col-blue;
+
+  .container{
+    padding: 25px 0;
+
+    .list-info{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 0 40px;
+
+      li {
+        // margin: 10px;
+        // flex-basis:  calc(100%  / 5 ) ;
+
+        a {
+          display: flex;
+
+          img{
+            padding: 5px;
+            height: 60px;
+            width: 50px;
+          }
+
+          h6{
+            padding: 5px;
+            text-transform: uppercase;
+            color: $col-white;
+            line-height: 50px;
+          }
+        }
+      }
+    }
+  }
+}

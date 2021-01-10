@@ -26,6 +26,47 @@
         </li>
         @endforeach
       </ul>
+      <div class="btn">
+        <button type="button" name="button">LOAD MORE</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- DC COMICS INFO -->
+  <section class="info">
+    <div class="container">
+      <ul class="list-info">
+        <li>
+          <a href="#">
+            <img src="{{asset('images/digital-comics.png')}}" alt="">
+            <h6>digital comics</h6>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="{{asset('images/merchandise.png')}}"alt="">
+            <h6>merchandise</h6>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="{{asset('images/subscriptions.png')}}" alt="">
+            <h6>subscription</h6>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="{{asset('images/shop-locator.png')}}" alt="">
+            <h6>comic shop location</h6>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="{{asset('images/power-visa.svg')}}" alt="">
+            <h6> power visa</h6>
+          </a>
+        </li>
+      </ul>
     </div>
   </section>
 </main>

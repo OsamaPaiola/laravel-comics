@@ -105,7 +105,7 @@ header .container .search input {
   color: #fff;
 }
 .comics .container {
-  padding: 15px;
+  padding: 30px 15px;
 }
 .comics .container .comic-list {
   display: grid;
@@ -113,7 +113,7 @@ header .container .search input {
   gap: 1rem;
 }
 .comics .container .comic-list li {
-  margin-bottom: 20px;
+  margin: 10px 0;
 }
 .comics .container .comic-list li a {
   color: white;
@@ -122,6 +122,45 @@ header .container .search input {
 .comics .container .comic-list li a img {
   width: 100%;
   margin-bottom: 10px;
+}
+.comics .container .btn {
+  text-align: center;
+  margin-top: 20px;
+}
+.comics .container .btn button {
+  background-color: #0282f9;
+  padding: 8px 40px;
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.info {
+  background-color: #0282f9;
+}
+.info .container {
+  padding: 25px 0;
+}
+.info .container .list-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 40px;
+}
+.info .container .list-info li a {
+  display: flex;
+}
+.info .container .list-info li a img {
+  padding: 5px;
+  height: 60px;
+  width: 50px;
+}
+.info .container .list-info li a h6 {
+  padding: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 50px;
 }
 
 .detail {
@@ -149,6 +188,94 @@ header .container .search input {
   padding: 10px 20px;
   flex-basis: 33%;
 }
+.detail .container .descrition .body {
+  margin-top: 25px;
+}
+.detail .container .descrition .body p:first-child {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.detail .container .descrition .body p {
+  font-size: 14px;
+}
+.detail .container .descrition .body p:last-child {
+  margin-top: 20px;
+}
 .detail .container .advertisement {
   flex-basis: 30%;
+}
+.detail .container .advertisement h5 {
+  text-align: right;
+}
+
+.main-footer .top-footer {
+  background-image: url(../images/footer-bg.jpg);
+  color: #fff;
+}
+.main-footer .top-footer .left,
+.main-footer .top-footer .right {
+  flex-basis: 50%;
+}
+.main-footer .top-footer .col {
+  flex-basis: calc(80% / 3);
+  padding: 0 5px;
+  padding-top: 40px;
+}
+.main-footer .top-footer .col h4 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.main-footer .top-footer .col li {
+  margin: 5px 0;
+}
+.main-footer .top-footer .col li a {
+  color: grey;
+  font-size: 0.8rem;
+}
+.main-footer .top-footer .col .col-top {
+  margin-bottom: 25px;
+}
+.main-footer .top-footer .privacy {
+  color: grey;
+  font-size: 0.8rem;
+  padding: 20px 10px;
+}
+.main-footer .top-footer .privacy a {
+  color: #0282f9;
+}
+.main-footer .top-footer .right {
+  background-image: url("../images/logo-footer.png");
+  background-position: center;
+}
+
+.bottom-footer {
+  background-color: black;
+  padding: 30px;
+}
+.bottom-footer .container {
+  justify-content: space-between;
+  color: #fff;
+}
+.bottom-footer .container button {
+  padding: 14px;
+  color: white;
+  background-color: #1f1e1e;
+  border: 1px solid #0282f9;
+  cursor: pointer;
+}
+.bottom-footer .container .social h5 {
+  text-transform: uppercase;
+  color: #0282f9;
+  margin: 10px;
+  line-height: 30px;
+}
+.bottom-footer .container ul {
+  display: flex;
+}
+.bottom-footer .container ul li {
+  margin: 10px;
+}
+.bottom-footer .container ul li i {
+  font-size: 2rem;
+  color: grey;
 }
