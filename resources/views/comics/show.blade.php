@@ -32,5 +32,67 @@
       </div>
     </div>
   </section>
+
+  <!-- SECTION TALENT AND SPECS -->
+    <section class="main-specs">
+      <div class="container d-flex">
+
+        <!-- content talent -->
+        <div class="talent">
+          <h4>Talent</h4>
+
+          <!-- first row -->
+          <div class="row d-flex art-by">
+            <div class="title ">
+              Art by:
+            </div>
+            <div class="content">
+              <a href="#">Lorem ipsum dolor sit amet</a>
+            </div>
+          </div>
+          <!-- second row -->
+          <div class="row d-flex  written-by">
+            <div class="title ">
+              Art by:
+            </div>
+            <div class="content">
+              <a href="#">Lorem ipsum dolor sit amet</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- content specs -->
+        <div class="specs">
+          <h4>Specs</h4>
+          <!-- first row -->
+          <div class="row d-flex series">
+            <div class="title">
+              Series:
+            </div>
+            <div class="content">
+              <a href="#">{{$comic['title']}}</a>
+            </div>
+          </div>
+          <!-- second row -->
+          <div class="row d-flex price">
+            <div class="title">
+              U.S. Price:
+            </div>
+            <div class="content">
+            ${{$comic['price']}}
+            </div>
+          </div>
+          <div class="row d-flex sale">
+            <div class="title">
+              On Sale Date:
+            </div>
+            <div class="content">
+              Nov 10 2010
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
 </main>
 @endsection

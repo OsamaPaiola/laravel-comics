@@ -3,7 +3,7 @@
 @section('content')
 <main>
 
-  <!-- JUMBO -->
+  <!-- GENERAL HERO  -->
   <section class="general-hero">
     <div class="container">
       <img src="{{asset('images/cover-home.jpg')}}" alt="Teen Go">

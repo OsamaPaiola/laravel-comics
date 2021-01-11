@@ -1,0 +1,59 @@
+// section main-specs
+.main-specs {
+  background-color: #f0f0f0;;
+  font-weight: bold;
+  border-top: 1px solid #dfdfdf;
+
+  .container {
+    padding: 30px 150px 70px;
+    justify-content: space-between;
+
+  }
+}
+
+.talent,
+.specs {
+  flex-basis: 47%;
+
+  h4 {
+    color: darkblue;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }
+}
+
+// general row table
+.row {
+  font-size: 0.8rem;
+  padding: 10px 0;
+
+  .title {
+    flex-basis: 30%;
+    color: darkblue;
+
+  }
+
+  .content {
+    flex-basis: 70%;
+    justify-content: center;
+  }
+
+  a {
+    color: $col-blue;
+  }
+
+}
+
+// specific row table
+.written-by {
+  border-top: 2px solid #dfdfdf;
+}
+
+.price {
+  border-top: 2px solid #dfdfdf;
+}
+
+.sale {
+  border-bottom: 2px solid #dfdfdf;
+
+}

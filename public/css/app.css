@@ -101,7 +101,7 @@ header .container .search input {
 }
 
 .comics {
-  background-color: #464646;
+  background-color: #001224;
   color: #fff;
 }
 .comics .container {
@@ -164,7 +164,7 @@ header .container .search input {
 }
 
 .detail {
-  margin-top: 60px;
+  margin: 60px 0 80px;
 }
 .detail .container {
   padding: 0 120px;
@@ -206,6 +206,55 @@ header .container .search input {
 }
 .detail .container .advertisement h5 {
   text-align: right;
+}
+
+.main-specs {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  border-top: 1px solid #dfdfdf;
+}
+.main-specs .container {
+  padding: 30px 150px 70px;
+  justify-content: space-between;
+}
+
+.talent,
+.specs {
+  flex-basis: 47%;
+}
+.talent h4,
+.specs h4 {
+  color: darkblue;
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+}
+
+.row {
+  font-size: 0.8rem;
+  padding: 10px 0;
+}
+.row .title {
+  flex-basis: 30%;
+  color: darkblue;
+}
+.row .content {
+  flex-basis: 70%;
+  justify-content: center;
+}
+.row a {
+  color: #0282f9;
+}
+
+.written-by {
+  border-top: 2px solid #dfdfdf;
+}
+
+.price {
+  border-top: 2px solid #dfdfdf;
+}
+
+.sale {
+  border-bottom: 2px solid #dfdfdf;
 }
 
 .main-footer .top-footer {
